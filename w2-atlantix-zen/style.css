@@ -1,0 +1,363 @@
+header {
+    position: relative;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 100px;
+}
+
+.header-container a.header-logo {
+    margin-right: auto;
+}
+
+header .menu {
+    margin-right: 20px;
+}
+
+header .menu ul {
+    display: flex;
+    align-items: center;
+}
+
+header .menu ul li a {
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.user-login a {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    margin-right: -5px;
+    text-transform: uppercase;
+
+}
+
+.hero::after {
+    content: '';
+    background: #222;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+    background-image: url(img/photo-1427088625471-da8a7193afd3.jpg);
+    background-size: cover;
+    background-position: ;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.hero-ext-con {
+    padding: 250px 200px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-ext-con h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    width: 400px;
+}
+
+.hero-ext-con p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero-ext-con .hero-button a.free {
+    background: #9c6ecc;
+    border: 1px solid #9c6ecc;
+    color: #fff;
+}
+
+.hero-ext-con .hero-button {
+    padding: 30px 0;
+}
+
+.hero-ext-con .hero-button a {
+    border: 1px solid #fff;
+    padding: 10px 35px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-right: 15px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.services {
+    position: relative;
+    padding: 50px 200px;
+}
+
+.services-header h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #4da2e3;
+    font-weight: 400;
+}
+
+.services-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 30px;
+}
+
+.services-item {
+    flex-basis: 32%;
+    display: flex;
+}
+
+.ser-item-icon img {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+}
+
+.ser-item-text h5 {
+    font-size: 18px;
+    color: #666666;
+}
+
+.ser-item-text p {
+    color: #8a8a8a;
+    font-size: 15px;
+
+}
+
+.seen {
+    padding: 50px 200px;
+    margin-bottom: 50px;
+}
+
+.seen-header span {
+    font-weight: 800;
+}
+
+.seen-header h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #4da2e3;
+    font-weight: 400;
+}
+
+.seen-con ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seen-con ul li {
+    flex-basis: 25%;
+}
+
+.seen-con ul li img {
+    width: 150px;
+    height: 40px;
+}
+
+.call {
+    position: relative;
+    background-image: url(img/38.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-con {
+    padding: 100px 200px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+
+}
+
+.call::after {
+    content: '';
+    background: #222;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+.call-con h2 span {
+    font-weight: 600;
+}
+
+.call-con h2 {
+    font-weight: 300;
+    color: #fcfcfc;
+    font-size: 32px;
+    text-align: center;
+}
+
+.call-con p {
+    font-size: 15px;
+    text-align: center;
+    color: #fcfcfc;
+    padding: 10px 0;
+    width: 500px;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.call-con a {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.call-con a i {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: #fff;
+}
+
+.sub {
+    padding: 50px 200px;
+    position: relative;
+}
+
+.sub-head h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #4da2e3;
+    font-weight: 400;
+}
+.sub-head h1 span{
+    font-weight: 600;
+}
+.sub-con{}
+.sub-con p{
+    text-align: center;
+    font-size: 15px;
+    color: #A5A5A5;
+}
+.sub-con form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.sub-con form button{
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid #9C6ECC;
+    background: #9C6ECC;
+    color: #fff;
+}
+.sub-con form input{
+    padding: 15px 40px;
+    border: 1px solid #eee;
+    width: 40%;
+    background: #ECE9E9;
+}
+.sub-con span{
+    text-align: center;
+    display: block;
+    padding: 30px;
+    padding-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer{
+    background: #333333;
+    padding: 50px 200px;
+}
+.footer-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left .footer-menu{}
+.footer-left .footer-menu ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-left .footer-menu ul{
+    display: flex;
+}
+.footer-txt{
+    font-size: 13px;
+    padding: 5px 0;
+    color: #878786;
+}
+.footer-social ul{
+    display: flex;
+    align-items: center;
+}
+.footer-social ul li a{
+    margin-left: 20px;
+    font-size: 25px;
+    color: #878786;
+}
+.head-round{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 30px;
+}
+.head-round span:nth-child(2){
+        width: 15px;
+    height: 15px;
+}
+.head-round span:nth-child(3){
+        width: 10px;
+    height: 10px;
+}
+.head-round span{
+    width: 20px;
+    height: 20px;
+    background: #E1E1E1;
+    border-radius: 50%;
+    margin: 5px;
+}
